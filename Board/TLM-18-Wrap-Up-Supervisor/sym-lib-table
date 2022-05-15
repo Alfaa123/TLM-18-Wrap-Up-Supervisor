@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "LS7366R")(type "Legacy")(uri "${KIPRJMOD}/Libraries/Symbols/LS7366R.lib")(options "")(descr ""))
+  (lib (name "ADM488ANZ")(type "Legacy")(uri "${KIPRJMOD}/Libraries/Symbols/ADM488ANZ.lib")(options "")(descr ""))
+)
