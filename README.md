@@ -16,3 +16,14 @@ In order to keep track of the position of the telescope during power loss, a sma
 An additional feature that could be implemented is additional sensors to monitor environmental conditions inside the telescope. Temperature and humidity could be logged, as well as a small Inertial Measurement Unit to detect abnormal vibration in the positioning system. Additional sensing capabilities would allow a remote user to detect issues before they get too out of control.
 
 Physically, the electronics would be mounted in a weatherproof enclosure attached somewhere near to the selsyn pinion to keep the encoder wire as short as possible.
+
+# Electrical
+
+The TLM-18 Supervisor system is controlled by an Arduino Nano as the main MCU. This was chosen for ease of software development, ubquity and cost.
+
+The entire system is powered by a small 12v lead acid battery float charger connected to a standard 12v UPS battery. This gives the system a short battery backup supply should mains power be inturrupted.
+
+Attached to the Arduino is an LS7366R SPI Encoder Counter to keep track of the encoder pulses. This will allow high PPR encoders without overwhelming the inturrupt capability of the Arduino at high speeds.
+
+A ADM488ANZ RS-422 transceiver is also attached to allow long distance and isolated communication with the TLM-18 control computer, which will be located a significant distance away and may not be at the same ground potential.
+
