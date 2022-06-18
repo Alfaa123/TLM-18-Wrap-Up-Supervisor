@@ -17,7 +17,7 @@ An additional feature that could be implemented is additional sensors to monitor
 
 Physically, the electronics would be mounted in a weatherproof enclosure attached somewhere near to the selsyn pinion to keep the encoder wire as short as possible.
 
-# Electrical
+# Electrical Design
 
 The TLM-18 Supervisor system is controlled by an Arduino Nano as the main MCU. This was chosen for ease of software development, ubquity and cost.
 
@@ -27,3 +27,7 @@ Attached to the Arduino is an LS7366R SPI Encoder Counter to keep track of the e
 
 A ADM488ANZ RS-422 transceiver is also attached to allow long distance and isolated communication with the TLM-18 control computer, which will be located a significant distance away and may not be at the same ground potential.
 
+The schematic and board layout are shown below:
+
+![Board Layout](Pictures/Board_Layout.png)
+![Board Schematic](Pictures/Schematic.png)

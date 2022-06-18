@@ -37,7 +37,7 @@
 )
   (line (name "") (start 90 8.5) (end 90 5.5))
   (line (name "") (start 26 8.5) (end 26 2))
-  (bitmap (name "") (pos 19.989 29.0022) (scale 0.25)
+  (bitmap (name "") (pos 21 29.5) (scale 0.25)
   (pngdata
     (data "89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 06 D6 00 00 03 E8 08 06 00 00 00 4A CE CA ")
     (data "2D 00 00 00 04 73 42 49 54 08 08 08 08 7C 08 64 88 00 00 00 09 70 48 59 73 00 00 4C 90 00 00 4C ")
